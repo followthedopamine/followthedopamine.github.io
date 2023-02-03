@@ -13,6 +13,13 @@ html, body {
   width: 50%;
   height: 100%;
   color: #88848C;
+  float: left;
+}
+
+#right-split {
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
 #title-bar {
