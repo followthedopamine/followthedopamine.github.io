@@ -3,7 +3,6 @@ const rightSplit = document.getElementById("right-split");
 
 const code = `<h1>Portfolio</h1>
 <p>This is my portfolio</p>`;
-const codeCharacters = code.split("");
 let rawCodeProgress = "";
 let charCount = 0;
 
@@ -22,7 +21,7 @@ const updateHTML = () => {
 const updateSite = () => {
   // Go to line
   // Edit line
-  char = codeCharacters[charCount];
+  char = code.charAt(charCount);
   rawCodeProgress += char;
   updateHTML();
   displayCode(char);
