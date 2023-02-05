@@ -1,32 +1,36 @@
 const textEditor = document.getElementById("text-editor");
 const rightSplit = document.getElementById("right-split");
 
-const code = [
-  [1, ["<h1>Portfolio</h1>"]],
-  [2, ["<p>This is my portfolio</p>"]],
-];
-
+const code = `<h1>Portfolio</h1>
+<p>This is my portfolio</p>`;
+const codeCharacters = code.split("");
 let rawCodeProgress = "";
+let charCount = 0;
 
 // Returns an array of same size but second element is an array full of coloured characters and stripped htmlentities
 const colourCode = (code) => {};
 
-const displayCode = (html) => {
-  textEditor.innerHTML += html;
+const displayCode = (char) => {
+  if (char == "\n") char = "<br />";
+  textEditor.innerHTML += char;
 };
 
-const displayHTML = () => {
+const updateHTML = () => {
   rightSplit.innerHTML = rawCodeProgress;
 };
 
-const updateSite = (code) => {
-  code.forEach((line) => {
-    line[1].forEach((char) => {
-      rawCodeProgress += char;
-      displayCode(char);
-    });
-  });
-  displayHTML();
+const updateSite = () => {
+  // Go to line
+  // Edit line
+  char = codeCharacters[charCount];
+  rawCodeProgress += char;
+  updateHTML();
+  displayCode(char);
+  charCount++;
 };
 
-updateSite(code);
+const startTyping = (code) => {
+  setInterval(updateSite, 500);
+};
+
+startTyping(code);
