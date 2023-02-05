@@ -1,0 +1,4 @@
+- Design right side
+- Implement typing instead of interval
+- Have option to skip
+- Have mobile version
