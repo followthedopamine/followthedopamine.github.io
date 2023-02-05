@@ -20,6 +20,8 @@ html, body {
   width: 50%;
   height: 100%;
   float: left;
+  padding: 12px;
+
 }
 
 #title-bar {
@@ -59,10 +61,16 @@ html, body {
   width: calc(100% - 68px);
 }
 
+#text-editor {
+  padding: 12px;
+}
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .center-vertical {
@@ -72,4 +80,26 @@ html, body {
 
 .clear {
   clear: both;
+}
+
+h1 {
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  flex-basis: 100%;
+  padding-bottom: 8px;
+}
+
+h2 {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  flex-basis: 100%;
+}
+
+h3 {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  flex-basis: 100%;
 }
