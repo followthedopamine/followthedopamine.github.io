@@ -1,8 +1,10 @@
 const textEditor = document.getElementById("text-editor");
 const rightSplit = document.getElementById("right-split");
 
-const code = `<h1>Portfolio</h1>
-<p>This is my portfolio</p>`;
+const code = `<div>
+	<h1>Portfolio</h1>
+	<p>This is my portfolio</p>
+</div>`;
 let rawCodeProgress = "";
 let charCount = 0;
 
@@ -11,6 +13,13 @@ const colourCode = (code) => {};
 
 const displayCode = (char) => {
   if (char == "\n") char = "<br />";
+  if (char == "\t") {
+    char = "&emsp;";
+    console.log("Test");
+  }
+  if (char == " ") {
+    console.log("Space test");
+  }
   textEditor.innerHTML += char;
 };
 
