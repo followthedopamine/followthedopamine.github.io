@@ -13,13 +13,7 @@ const colourCode = (code) => {};
 
 const displayCode = (char) => {
   if (char == "\n") char = "<br />";
-  if (char == "\t") {
-    char = "&emsp;";
-    console.log("Test");
-  }
-  if (char == " ") {
-    console.log("Space test");
-  }
+  if (char == "\t") char = "&emsp;";
   textEditor.innerHTML += char;
 };
 
