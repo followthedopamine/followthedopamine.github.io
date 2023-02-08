@@ -103,3 +103,29 @@ h3 {
   font-weight: 300;
   flex-basis: 100%;
 }
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
+
+.col-3 {
+  width:33.33%;
+  float: left;
+}
+
+#featured-thumbnails {
+  width: 100%;
+}
+
+#featured-thumbnails img {
+  width: 90%;
+  display: block;
+  margin: 2% auto;
+  border: 1vw solid #3C3C3C;
+}
+
+#thumbnails {
+  width: 100%;
+}
+
