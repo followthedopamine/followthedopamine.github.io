@@ -70,6 +70,8 @@ html, body {
 
 #text-editor {
   padding: 12px;
+  font-size: 1vw;
+  height: 100%;
 }
 
 .center {
@@ -116,11 +118,12 @@ h3 {
 
 .container {
   width: 65%;
+  height: 100%;
 }
 
 .dark-bg {
   background-color: #222831;
-  height: 100%
+  height: 100%;
 }
 
 .col-2 {
