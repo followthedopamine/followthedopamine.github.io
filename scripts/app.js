@@ -39,7 +39,13 @@ const code = `		<div class="center dark-bg">
 		</div>`;
 let rawCodeProgress = "";
 let charCount = 0;
-let colour = "red";
+const red = "#e06c75";
+const gray = "#4b5263";
+const orange = "#e5c07b";
+const green = "#98c379";
+const white = "#abb2bf";
+const darkGray = "#4b5263";
+let colour = red;
 let lineNumber = 1;
 
 // Returns an array of same size but second element is an array full of coloured characters and stripped htmlentities
@@ -47,41 +53,41 @@ const colourCode = (code) => {};
 
 const displayCode = (char) => {
   if (char === "\n") {
-    char = "<br />" + addColour(lineNumber, "gray");
+    char = "<br />" + addColour(lineNumber, gray);
     lineNumber++;
   }
   if (char === "\t") char = "&emsp;";
   if (char === "<") {
-    colour = "gray";
+    colour = gray;
     char = addColour(char, colour);
-    colour = "red";
+    colour = red;
   }
   if (char == ">") {
-    colour = "gray";
+    colour = gray;
     char = addColour(char, colour);
-    colour = "white";
+    colour = white;
   }
   if (char === "=" || char === "/") {
     let prevColour = colour;
-    colour = "gray";
+    colour = gray;
     char = addColour(char, colour);
     colour = prevColour;
   }
-  if (char == " " && colour == "red") {
-    colour = "orange";
+  if (char == " " && colour == red) {
+    colour = orange;
   }
-  if (char == '"' && colour != "green") {
-    colour = "green";
+  if (char == '"' && colour != green) {
+    colour = green;
     char = addColour(char, colour);
   }
-  if (char == '"' && colour == "green") {
+  if (char == '"' && colour == green) {
     char = addColour(char, colour);
-    colour = "orange";
+    colour = orange;
   }
   char = addColour(char, colour);
 
   if (charCount == 0) {
-    char = addColour(lineNumber, "gray") + char;
+    char = addColour(lineNumber, darkGray) + char;
     lineNumber++;
   }
   textEditor.innerHTML += char;
