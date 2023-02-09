@@ -4,8 +4,8 @@ const rightSplit = document.getElementById("right-split");
 const code = `		<div class="center dark-bg">
 			<div class="container">
 				<h1>Mark Jenkins</h1>
-				<h2>https://github.com/followthedopamine</h2>
-				<h3>followthedopamine@gmail.com</h3>
+				<h2><a href="https://github.com/followthedopamine">https://github.com/followthedopamine</a></h2>
+				<h3><a href="https://linkedin.com/in/follow-the-dopamine"> https://linkedin.com/in/follow-the-dopamine</a></h3>
 				<p>
 					I'm a passionate hobbyist programmer with expertise in competitive
 					programming, machine learning, and game development. Seeking to
@@ -15,24 +15,26 @@ const code = `		<div class="center dark-bg">
 				</p>
 				<div id="featured-thumbnails">
 					<span class="col-1">
-						<img class="large-thumbnail" src="/img/banquet-blitz-thumb.png" />
+						<a href="https://play.google.com/store/apps/details?id=com.ComputerMarmalade.FoodSwitch" target="_blank">
+							<img class="large-thumbnail" src="/img/banquet-blitz-thumb.png" />
+						</a>
 					</span>
 				</div>
 				<div id="thumbnails">
 					<div class="col-3">
-						<img
-							class="medium-thumbnail left-thumbnail"
-							src="/img/bullshit-thumb.png"
-						/>
+						<a href="https://nopaynenogame.itch.io/bullshit" target="_blank">
+							<img class="medium-thumbnail left-thumbnail" src="/img/bullshit-thumb.png" />
+						</a>
 					</div>
 					<div class="col-3">
-						<img class="medium-thumbnail" src="/img/wordle-thumb.png" />
+						<a href="/wordle-clone/" target="_blank">
+							<img class="medium-thumbnail" src="/img/wordle-thumb.png" />
+						</a>
 					</div>
 					<div class="col-3">
-						<img
-							class="medium-thumbnail right-thumbnail"
-							src="/img/stacker-thumb.png"
-						/>
+						<a href="/stacker-game-js/" target="_blank">
+							<img class="medium-thumbnail right-thumbnail" src="/img/stacker-thumb.png" />
+						</a>
 					</div>
 				</div>
 			</div>
