@@ -15,7 +15,7 @@ const code = `		<div class="center dark-bg">
 				</p>
 				<div id="featured-thumbnails">
 					<span class="col-1">
-						<img class="large-thumbnail" src="/img/test.png" />
+						<img class="large-thumbnail" src="/img/BanquetBlitz.png" />
 					</span>
 				</div>
 				<div id="thumbnails">
