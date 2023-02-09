@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'equipmentpromedium';
+  src: url('../fonts/equipmentpro-webfont.woff2') format('woff2'),
+       url('../fonts/equipmentpro-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11pt;
@@ -20,8 +28,7 @@ html, body {
   width: 50%;
   height: 100%;
   float: left;
-  padding: 12px;
-
+  color: #EEEEEE;
 }
 
 #title-bar {
@@ -83,11 +90,14 @@ html, body {
 }
 
 h1 {
+  font-family: 'equipmentpromedium';
   display: block;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 400;
   flex-basis: 100%;
   padding-bottom: 8px;
+  padding-top: 20px;
+  color: #FFD369;
 }
 
 h2 {
@@ -104,6 +114,14 @@ h3 {
   flex-basis: 100%;
 }
 
+.container {
+  width: 65%;
+}
+
+.dark-bg {
+  background-color: #222831;
+}
+
 .col-2 {
   width: 50%;
   float: left;
@@ -118,14 +136,34 @@ h3 {
   width: 100%;
 }
 
-#featured-thumbnails img {
+img {
+  border: 0.5vw solid #FFD369;
+}
+
+.large-thumbnail {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.medium-thumbnail {
   width: 90%;
   display: block;
-  margin: 2% auto;
-  border: 1vw solid #3C3C3C;
+  margin: 28px auto;
+}
+
+.right-thumbnail {
+  margin-right: 0px;
+}
+
+.left-thumbnail {
+  margin-left: 0px;
 }
 
 #thumbnails {
   width: 100%;
 }
 
+p {
+  padding: 40px;
+}
