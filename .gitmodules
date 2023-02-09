@@ -1,3 +1,6 @@
 [submodule "stacker-game-js"]
 	path = stacker-game-js
 	url = https://github.com/followthedopamine/stacker-game-js
+[submodule "wordle-clone"]
+	path = wordle-clone
+	url = https://github.com/followthedopamine/wordle-clone

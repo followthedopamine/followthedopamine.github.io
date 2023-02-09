@@ -22,7 +22,7 @@ const code = `		<div class="center dark-bg">
 					<div class="col-3">
 						<img
 							class="medium-thumbnail left-thumbnail"
-							src="/img/test.png"
+							src="/img/bullshit-thumb.png"
 						/>
 					</div>
 					<div class="col-3">
@@ -31,7 +31,7 @@ const code = `		<div class="center dark-bg">
 					<div class="col-3">
 						<img
 							class="medium-thumbnail right-thumbnail"
-							src="/img/test.png"
+							src="/img/stacker-thumb.png"
 						/>
 					</div>
 				</div>
