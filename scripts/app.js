@@ -26,7 +26,7 @@ const code = `		<div class="center dark-bg">
 						/>
 					</div>
 					<div class="col-3">
-						<img class="medium-thumbnail" src="/img/test.png" />
+						<img class="medium-thumbnail" src="/img/wordle-thumb.png" />
 					</div>
 					<div class="col-3">
 						<img
