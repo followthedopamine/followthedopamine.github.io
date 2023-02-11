@@ -4,6 +4,14 @@
 - Have option to skip
 - Have mobile version
 
+[Banquet Blitz]
+
+- See TODO in project
+
+[Bulls Hit]
+
+- See shortcut
+
 [Stacker]
 
 - Make design work on mobile
