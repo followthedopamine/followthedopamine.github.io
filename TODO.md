@@ -14,7 +14,8 @@
 
 [Stacker]
 
-- Make design work on mobile
+- Replay button
+- Tutorial
 
 [Wordle]
 
