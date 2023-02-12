@@ -14,7 +14,6 @@
 
 [Stacker]
 
-- Replay button
 - Tutorial
 
 [Wordle]
