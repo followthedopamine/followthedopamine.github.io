@@ -18,4 +18,4 @@
 
 [Wordle]
 
-- Replay button
+- Win animation
