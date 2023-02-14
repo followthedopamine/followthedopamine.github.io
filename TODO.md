@@ -21,4 +21,5 @@
 
 [Wordle]
 
+- Tutorial
 - Win animation
