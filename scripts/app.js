@@ -7,11 +7,8 @@ const code = `		<div class="center dark-bg">
 				<h2><a href="https://github.com/followthedopamine">https://github.com/followthedopamine</a></h2>
 				<h3><a href="https://linkedin.com/in/follow-the-dopamine"> https://linkedin.com/in/follow-the-dopamine</a></h3>
 				<p>
-					I'm a passionate hobbyist programmer with expertise in competitive
-					programming, machine learning, and game development. Seeking to
-					make my mark in the thriving NZ video game industry, I'm looking
-					for entry-level opportunities to showcase my skills and drive.
-					Let's create something amazing together.
+					I'm a passionate programmer with expertise in competitive
+					programming, machine learning, and game development.
 				</p>
 				<div id="featured-thumbnails">
 					<span class="col-1">
