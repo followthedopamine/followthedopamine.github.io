@@ -9,6 +9,7 @@
 - Add blinking cursor to end of code
 - Title
 - Icon
+- New design
 
 [Banquet Blitz]
 
