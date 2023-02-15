@@ -6,6 +6,9 @@
 - Extremely descriptive README on all projects
 - Remove non-confident text
 - Make code scroll to bottom on new line entered
+- Add blinking cursor to end of code
+- Title
+- Icon
 
 [Banquet Blitz]
 
