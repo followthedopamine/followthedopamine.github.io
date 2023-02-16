@@ -148,6 +148,15 @@ h4 {
   text-align: left;
 }
 
+h5 {
+  display: block;
+  font-size: 13pt;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #intro {
   padding: 40px;
 }
@@ -176,27 +185,6 @@ p {
   float: left;
 }
 
-/* .large-thumbnail {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}*/
-
-/* .medium-thumbnail {
-  display: block;
-  margin: 0 auto;
-}
-
-.right-thumbnail {
-  margin-right: 0px;
-}
-
-.left-thumbnail {
-  margin-left: 0px;
-} */
-
-
-
 @keyframes darken {
   from {filter: brightness(100%);}
   to {filter: brightness(50%);}
@@ -204,18 +192,22 @@ p {
 
 img {
   border: 0.5vw solid #FFD369;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn {
   background-color: #FFD369;
   color: #393E46;
   padding: 8px;
+  font-weight: 600;
 }
 
 .card {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+
 }
 
 .right-card {
@@ -229,11 +221,11 @@ img {
 .col-3 .card {
   margin-top: 20px;
   width: 92%;
+  
 }
 
 .card-content {
   font-size: 10pt;
-
   height: 80px;
   background-color: #393E46;
 }
@@ -248,4 +240,21 @@ img {
   float: left;
   height: 100%;
   margin-left: 10px;
+}
+
+@media (hover: hover) {
+  .card {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-content {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: -80px;
+    transform: translateY(0);
+    transition: transform 300ms ease-in-out;
+  }
+  .card:hover .card-content {
+    transform: translateY(-80px);
+  }
 }
