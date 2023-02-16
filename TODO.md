@@ -1,8 +1,6 @@
 [Portfolio]
 
 - Extremely descriptive README on all projects
-- Title
-- Icon
 - Potentially generate all the colours for the text editor on load for performance
 
 [Banquet Blitz]
