@@ -10,6 +10,7 @@
 - Title
 - Icon
 - New design
+- Alt text
 
 [Banquet Blitz]
 
