@@ -74,7 +74,11 @@ const code = `
 					<div class="col-3">
 						<a href="/wordle-clone/" target="_blank">
 							<div class="card">
-								<img class="medium-thumbnail" src="/img/wordle-thumb.png" alt="Wordle gameplay with two bad guesses and one good guess" />
+								<img
+									class="medium-thumbnail"
+									src="/img/wordle-thumb.png"
+									alt="Wordle gameplay with two bad guesses and one good guess"
+								/>
 								<div class="card-content">
 									<div>
 										<h5>Wordle Clone</h5>
