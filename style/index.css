@@ -279,6 +279,7 @@ img {
   line-height: 23px;
   color: #2E3D48;
   animation: 1s blink step-end infinite;
+  padding-bottom: 80px;
 }
 
 @keyframes "blink" {

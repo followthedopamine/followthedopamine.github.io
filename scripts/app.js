@@ -131,37 +131,47 @@ const increment = 10;
 const colourCode = (code) => {};
 
 const displayCode = (char) => {
-  if (char === "\n") {
-    char = "<br />" + addColour(lineNumber, gray);
-    lineNumber++;
-  }
-  if (char === "\t") char = "&emsp;";
-  if (char === "<") {
-    colour = gray;
-    char = addColour(char, colour);
-    colour = red;
-  }
-  if (char == ">") {
-    colour = gray;
-    char = addColour(char, colour);
-    colour = white;
-  }
-  if (char === "=" || char === "/") {
-    let prevColour = colour;
-    colour = gray;
-    char = addColour(char, colour);
-    colour = prevColour;
-  }
-  if (char == " " && colour == red) {
-    colour = orange;
-  }
-  if (char == '"' && colour != green) {
-    colour = green;
-    char = addColour(char, colour);
-  }
-  if (char == '"' && colour == green) {
-    char = addColour(char, colour);
-    colour = orange;
+  switch (char) {
+    case "\n":
+      char = "<br />" + addColour(lineNumber, gray);
+      lineNumber++;
+      break;
+    case "\t":
+      char = "&emsp;";
+      break;
+    case "<":
+      colour = gray;
+      char = addColour(char, colour);
+      colour = red;
+      break;
+    case ">":
+      colour = gray;
+      char = addColour(char, colour);
+      colour = white;
+      break;
+    case "=":
+    case "/":
+      let prevColour = colour;
+      colour = gray;
+      char = addColour(char, colour);
+      colour = prevColour;
+      break;
+    case " ":
+      if (colour == red) {
+        colour = orange;
+      }
+      break;
+    case '"':
+      if (colour != green) {
+        colour = green;
+        char = addColour(char, colour);
+      } else {
+        char = addColour(char, colour);
+        colour = orange;
+      }
+      break;
+    default:
+      break;
   }
   char = addColour(char, colour);
 
@@ -169,6 +179,7 @@ const displayCode = (char) => {
     char = addColour(lineNumber, darkGray) + char;
     lineNumber++;
   }
+
   return char;
 };
 
@@ -189,7 +200,6 @@ const updateSite = () => {
   for (let i = 0; i < increment; i++) {
     char = code.charAt(charCount);
     charCount++;
-    // html += char;
     html += displayCode(char);
     rawCodeProgress += char;
   }
