@@ -1,16 +1,10 @@
 [Portfolio]
 
-- Implement typing instead of interval
-- Have option to skip
-- Live demo / code buttons?
 - Extremely descriptive README on all projects
-- Remove non-confident text
-- Make code scroll to bottom on new line entered
-- Add blinking cursor to end of code
 - Title
 - Icon
-- New design
 - Alt text
+- Potentially generate all the colours for the text editor on load for performance
 
 [Banquet Blitz]
 
