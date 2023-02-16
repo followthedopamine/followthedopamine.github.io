@@ -1,6 +1,3 @@
-const textEditor = document.getElementById("text-editor");
-const rightSplit = document.getElementById("right-split");
-
 const code = `		<div class="center dark-bg">
 			<div class="container">
 				<h1>Mark Jenkins</h1>
@@ -38,6 +35,7 @@ const code = `		<div class="center dark-bg">
 		</div>`;
 let rawCodeProgress = "";
 let charCount = 0;
+const blue = "#61afef";
 const red = "#e06c75";
 const gray = "#4b5263";
 const orange = "#e5c07b";
@@ -46,6 +44,7 @@ const white = "#abb2bf";
 const darkGray = "#4b5263";
 let colour = red;
 let lineNumber = 1;
+const increment = 10;
 
 // Returns an array of same size but second element is an array full of coloured characters and stripped htmlentities
 const colourCode = (code) => {};
@@ -101,17 +100,45 @@ const updateHTML = () => {
 };
 
 const updateSite = () => {
-  // Go to line
-  // Edit line
-  char = code.charAt(charCount);
-  rawCodeProgress += char;
+  if (charCount == 0) {
+    textEditor.innerHTML = "";
+  }
+  let segment = "";
+  let html = "";
+  for (let i = 0; i < increment; i++) {
+    char = code.charAt(charCount);
+    segment += char;
+    charCount++;
+    html += displayCode(char);
+    rawCodeProgress += char;
+  }
   updateHTML();
-  displayCode(char);
-  charCount++;
 };
 
-const startTyping = (code) => {
-  setInterval(updateSite, 20);
+const skipTyping = () => {
+  setInterval(updateSite, 10);
 };
 
-startTyping(code);
+const textEditor = document.getElementById("text-editor");
+const textContainer = document.getElementById("text-container");
+const rightSplit = document.getElementById("right-split");
+const cursor = document.createElement("span");
+const input = document.createElement("input");
+
+const main = () => {
+  cursor.classList.add("blinking-cursor");
+  cursor.innerHTML = "|";
+  // input.type = "text";
+  // input.id = "typing-area";
+  // input.value = "Type anything here to help Mark build his portfolio!";
+  document.body.addEventListener("keydown", handleInput);
+  textContainer.appendChild(cursor);
+  textContainer.appendChild(input);
+};
+
+const handleInput = () => {
+  updateSite();
+};
+
+window.onload(main());
+//skipTyping();
