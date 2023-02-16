@@ -169,7 +169,7 @@ const displayCode = (char) => {
     char = addColour(lineNumber, darkGray) + char;
     lineNumber++;
   }
-  textEditor.innerHTML += char;
+  return char;
 };
 
 const addColour = (char, colour) => {
@@ -185,18 +185,16 @@ const updateSite = () => {
   if (charCount == 0) {
     textEditor.innerHTML = "";
   }
-  let segment = "";
   let html = "";
   for (let i = 0; i < increment; i++) {
     char = code.charAt(charCount);
-    if (char != "&emsp;") {
-      charCount++;
-    }
-    segment += char;
+    charCount++;
+    // html += char;
     html += displayCode(char);
     rawCodeProgress += char;
   }
   updateHTML();
+  textEditor.innerHTML += html;
   textContainer.scrollTo(0, textContainer.scrollHeight);
 };
 
