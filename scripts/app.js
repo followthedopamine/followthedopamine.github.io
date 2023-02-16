@@ -25,6 +25,7 @@ const code = `
 								<img
 									class="large-thumbnail"
 									src="/img/banquet-blitz-thumb.png"
+									alt="Two mobile phones displaying gameplay of Banquet Blitz"
 								/>
 								<div class="card-content">
 									<div class="card-content-left center-vertical">
@@ -52,6 +53,7 @@ const code = `
 								<img
 									class="medium-thumbnail left-thumbnail"
 									src="/img/bullshit-thumb.png"
+									alt="Happy cartoon bull from the game Bulls Hit"
 								/>
 
 								<div class="card-content">
@@ -72,7 +74,7 @@ const code = `
 					<div class="col-3">
 						<a href="/wordle-clone/" target="_blank">
 							<div class="card">
-								<img class="medium-thumbnail" src="/img/wordle-thumb.png" />
+								<img class="medium-thumbnail" src="/img/wordle-thumb.png" alt="Wordle gameplay with two bad guesses and one good guess" />
 								<div class="card-content">
 									<div>
 										<h5>Wordle Clone</h5>
@@ -94,6 +96,7 @@ const code = `
 								<img
 									class="medium-thumbnail right-thumbnail"
 									src="/img/stacker-thumb.png"
+									alt="A game of stacker where the player lost 3 rows from the top"
 								/>
 
 								<div class="card-content">
@@ -233,4 +236,3 @@ const handleInput = () => {
 };
 
 main();
-//skipTyping();
