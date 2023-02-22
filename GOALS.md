@@ -1,7 +1,6 @@
 [Goals]
 
 - Finish portfolio
-  - Layout
   - Check games are running properly
   - Add about page
 - Complete 2 neetcode problems per day
