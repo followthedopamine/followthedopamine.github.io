@@ -20,3 +20,11 @@
 - A44 Games
 - Ninja Kiwi
 - Sidhe
+
+[Tech]
+
+Xero
+Weta
+Datacom
+FNZ
+https://matchstiq.io/the-matchstiq-top-100
