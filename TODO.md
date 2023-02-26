@@ -13,8 +13,6 @@
 
 [Stacker]
 
-- Tutorial
-
 [Wordle]
 
 - Tutorial
