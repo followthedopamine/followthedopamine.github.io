@@ -1,12 +1,10 @@
 [Goals]
 
 - Finish portfolio
-  - Check games are running properly
-  - Add about page
+- Check games are running properly (especially on mobile)
 - Complete 2 neetcode problems per day
 - Eat well
 - Exercise regularly
-- Make a list of places to apply
 - Apply to at least 1 job a day
 
 [Studios]
