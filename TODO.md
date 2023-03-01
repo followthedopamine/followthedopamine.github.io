@@ -16,6 +16,3 @@
 [Stacker]
 
 [Wordle]
-
-- Tutorial
-- Win animation
