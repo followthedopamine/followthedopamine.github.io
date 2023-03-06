@@ -6,6 +6,7 @@
 - Eat well
 - Exercise regularly
 - Apply to at least 1 job a day
+- Check NZGDA for postings in NZ
 
 [Studios]
 
