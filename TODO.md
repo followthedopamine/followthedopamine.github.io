@@ -5,6 +5,7 @@
 - Add about page
 - Add downloadable CV
 - Update Banquet Blitz Play Store page
+- Layout extra pages as vs code and then have the code type out when you scroll down?
 
 [Feedback from Olivier]
 
