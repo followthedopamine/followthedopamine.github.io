@@ -320,3 +320,7 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.line-number {
+  color: #4b5263;
+}
