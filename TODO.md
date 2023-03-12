@@ -7,6 +7,8 @@
 - Update Banquet Blitz Play Store page
 - Layout extra pages as vs code and then have the code type out when you scroll down?
 
+Really good idea for a portfolio piece: algorithm visualizer - take leetcode problems and create a slowed down visual version of what's happening.
+
 [Feedback from Olivier]
 
 I think the content your portfolio being "ready" really depends on the position you are applying to. For example, if you were applying as a junior dev for web games, it might be perfect. If you were looking at a 3D open world game, it probably doesn't showcase that inclination.
