@@ -1,0 +1,57 @@
+I have created a web version of this portfolio available here:
+https://followthedopamine.github.io/
+
+
+
+
+I'm a lifelong gamer who loves learning and wants to craft a great work of art. I have designed and programmed a wide range of games.
+
+Originally I was interested in becoming an engineer, however with the rise of AI tooling I now find programming unfulfilling, and would like to find a more expressive way to contribute to the NZ game industry.
+
+Games
+Chaos Pool
+https://followthedopamine.itch.io/chaos-pool
+Unreleased | Game design and programming
+
+Scinami
+https://followthedopamine.itch.io/scinami
+2025 | Game design and programming
+
+Escape Velocity
+https://followthedopamine.itch.io/escape-velocity
+2026 | Game design and programming
+
+Digital Art
+Circus Hub poster design
+https://followthedopamine.github.io/assets/circus.png
+2026
+
+Matariki event poster design
+https://followthedopamine.github.io/assets/matariki.png
+2026
+
+Skull painting
+https://followthedopamine.github.io/assets/skull.png
+2026
+
+Video Edits
+Someone New music video
+https://www.youtube.com/watch?v=Pg5INB-3yPs
+3:01 2026
+
+Fly Away music video
+https://www.youtube.com/watch?v=2LcJOzZ4l0E
+1:01 2026
+
+Animation
+Character selection screen
+https://www.youtube.com/watch?v=FBd0wF2FITk
+0:14 2026
+
+Stickman with hammer animation principles
+https://www.youtube.com/watch?v=Zihbk3Czi_g
+0:10 2026
+
+The music featured in the games and videos of this portfolio was not produced by me, it's either paid assets or royalty free.
+This portfolio site and some of the code in the game Chaos Pool were made with the help of AI tools.
+None of the ideation, concepts, art, music, video, or animation involved AI tools.
