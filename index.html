@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FollowTheDopamine - Portfolio</title>
+  <meta name="description" content="Games, digital art, video edits, and animation by FollowTheDopamine.">
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      max-width: 64rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 3rem;
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    header { max-width: 42rem; margin-bottom: clamp(2rem, 6vw, 3rem); }
+    h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
+    header p { margin: 0.6rem 0; opacity: 0.65}
+    section + section { margin-top: clamp(2.25rem, 6vw, 3.25rem); }
+    h2 { margin: 0 0 0.85rem; font-size: 1.1rem; }
+    footer {margin-top: 0.8rem; font-size: 12px; opacity: 0.65;}
+    .grid { display: grid; gap: clamp(1rem, 2.5vw, 1.5rem); }
+    .grid--three { grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+    .grid--two { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
+    .item { color: inherit; text-decoration: none; }
+    .item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .item--art img { aspect-ratio: 4 / 3; }
+    .item h3 { margin: 0.55rem 0 0; font-size: 1rem; line-height: 1.35; }
+    .item p { margin: 0.1rem 0 0; font-size: 0.85rem; opacity: 0.65; }
+    .item:hover h3 { text-decoration: underline; text-underline-offset: 0.18em; }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FollowTheDopamine</h1>
+    <p>I'm a lifelong gamer who loves learning and wants to craft a great work of art. I have designed and programmed a wide range of games.</p>
+
+    <p>Originally I was interested in becoming an engineer, however with the rise of AI tooling I now find programming unfulfilling, and would like to find a more expressive way to contribute to the NZ game industry.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Games</h2>
+      <div class="grid grid--three">
+        <a class="item" href="https://followthedopamine.itch.io/chaos-pool" target="_blank" rel="noopener">
+          <img src="assets/chaos-pool-thumb.png" alt="" width="1200" height="675" loading="lazy">
+          <h3>Chaos Pool</h3>
+          <p>Unreleased | Game design and programming</p>
+        </a>
+        <a class="item" href="https://followthedopamine.itch.io/scinami" target="_blank" rel="noopener">
+          <img src="assets/scinami-thumb.png" alt="" width="1200" height="675" loading="lazy">
+          <h3>Scinami</h3>
+          <p>2025 | Game design and programming</p>
+        </a>
+        <a class="item" href="https://followthedopamine.itch.io/escape-velocity" target="_blank" rel="noopener">
+          <img src="assets/escape-velocity-thumb.png" alt="" width="1200" height="675" loading="lazy">
+          <h3>Escape Velocity</h3>
+          <p>2026 | Game design and programming</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Digital Art</h2>
+      <div class="grid grid--three">
+        <a class="item item--art" href="assets/circus.png" target="_blank" rel="noopener">
+          <img src="assets/circus-thumb.png" alt="" width="1200" height="900" loading="lazy">
+          <h3>Circus Hub poster design</h3>
+          <p>2026</p>
+        </a>
+        <a class="item item--art" href="assets/matariki.png" target="_blank" rel="noopener">
+          <img src="assets/matariki-thumb.png" alt="" width="1200" height="900" loading="lazy">
+          <h3>Matariki event poster design</h3>
+          <p>2026</p>
+        </a>
+        <a class="item item--art" href="assets/skull" target="_blank" rel="noopener">
+          <img src="assets/skull-thumb.png" alt="" width="1200" height="900" loading="lazy">
+          <h3>Skull painting</h3>
+          <p>2026</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Video Edits</h2>
+      <div class="grid grid--two">
+        <a class="item" href="https://youtu.be/Pg5INB-3yPs" target="_blank" rel="noopener noreferrer">
+          <img src="assets/someone-new-thumb.jpg" alt="" width="1200" height="675" loading="lazy">
+          <h3>Someone New music video</h3>
+          <p>3:01 2026</p>
+        </a>
+        <a class="item" href="https://youtu.be/2LcJOzZ4l0E" target="_blank" rel="noopener noreferrer">
+          <img src="assets/fly-away-thumb.jpg" alt="" width="1200" height="675" loading="lazy">
+          <h3>Fly Away music video</h3>
+          <p>1:01 2026</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Animation</h2>
+      <div class="grid grid--two">
+        <a class="item" href="https://youtu.be/FBd0wF2FITk" target="_blank" rel="noopener noreferrer">
+          <img src="assets/character-select-thumb.jpg" alt="" width="1200" height="675" loading="lazy">
+          <h3>Character selection screen</h3>
+          <p>0:14 2026</p>
+        </a>
+        <a class="item" href="https://youtu.be/Zihbk3Czi_g" target="_blank" rel="noopener noreferrer">
+          <img src="assets/stickman-thumb.jpg" alt="" width="1200" height="675" loading="lazy">
+          <h3>Stickman with hammer animation principles</h3>
+          <p>0:10 2026</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>The music featured in the games and videos of this portfolio was not produced by me, it's either paid assets or royalty free.<br />
+    This portfolio site and some of the code in the game Chaos Pool were made with the help of AI tools.<br />
+    None of the ideation, concepts, art, music, video, or animation involved AI tools.</p>
+  </footer>
+</body>
+</html>
